@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+main {
+    padding:10px;
+    margin:auto;
+    max-width: 1000px;
+}
+
+p {
+    font-size: 100px;
+    text-align: center;
+    margin:0;
+
+}
+article {
+    display: flex;
+    flex-direction: row;
+     justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+#container div {
+    height: 200px;
+    flex:0 0 30%;
+}
